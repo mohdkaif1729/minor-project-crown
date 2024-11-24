@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown/login</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body style="font-family: Arial narrow">
+    <div id="maindiv">
+      <form id="loginpage">
+        <h1 id="loginhead"><u>Login / sign In</u></h1>
+        <h2 class="dhead">Email:</h2>
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your E-mail address"
+          class="inputs"
+          required
+        />
+        <h2 class="dhead">Password:</h2>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter your Password"
+          class="inputs"
+          required
+        />
+        <button type="submit" id="loginbtn">Login</button>
+      </form>
+    </div>
+    <div class="backgroundImg"></div>
+    <script type="module" src="../javascript/loginpageBackendLogic.js"></script>
+  </body>
+</html>

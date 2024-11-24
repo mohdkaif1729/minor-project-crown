@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown/signup</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body
+    style="font-family: Arial narrow"
+    style="display: flex; justify-content: center; align-items: center"
+  >
+    <div id="signupmaindiv">
+      <form id="signuppage">
+        <h1 id="loginhead">Sign up to create account</h1>
+        <h3 style="display: flex; justify-content: center; margin: 5px">
+          Already have account?<a href="loginpage.html" id="loginlink">Login</a>
+        </h3>
+        <h2 class="dhead">Full Name:</h2>
+        <input
+          required
+          id="fullName"
+          type="text"
+          placeholder="Enter your full name"
+          class="inputs"
+        />
+        <h2 class="dhead">Email:</h2>
+        <input
+          required
+          id="email"
+          type="text"
+          placeholder="Enter your E-mail address"
+          class="inputs"
+        />
+        <h2 class="dhead">Password:</h2>
+        <input
+          required
+          id="password"
+          type="password"
+          placeholder="Enter Password"
+          class="inputs"
+          spellcheck="true"
+        />
+        <button type="submit" id="loginbtn" class="signup">Signup</button>
+      </form>
+    </div>
+    <div class="backgroundImg"></div>
+    <script src="../javascript/signuppageBackendLogic.js"></script>
+  </body>
+</html>

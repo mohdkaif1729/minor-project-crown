@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#roomsbutton{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid #ad8b3a;
+    background-color:rgb(253, 250, 250);
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+#roompage1{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 11vh;
+    border-radius:40%;
+    border: 2px double #ad8b3a;
+    margin: 5px;
+    margin-left: 50px;
+}
+.mainbtn{
+    width:100px;
+    height:35px;
+    font-size: 22px;
+    border: none;
+    color: #ad8b3a;
+    background-color:transparent;
+}
+.atag{
+    color:#ad8b3a;
+}
+#header{
+    height: 13vh;
+    width:100%;
+    background-color:#ffffff;
+    color:#ad8b3a;
+    display: flex;
+    position: fixed;
+    gap: 20px;
+    z-index: 10;
+    transition: all 0.89s ease-in-out;
+    box-shadow:black 5px 0.2px 7px 2.5px;
+}
+#LaS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.userin{
+    width: 100px;
+    height: 35px;
+    font: bolder;
+    font-size: 20px;
+    color:#ad8b3a;
+    background-color:transparent;
+    border: 2px solid  #ad8b3a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        border: 2px solid  #ad8b3a;
+        background-color: rgb(43, 40, 40);
+        color: #ad8b3a;
+    }
+}
+#btns{
+    color: #ad8b3a;
+    width:65%;
+    font-family: Inter, sans-serif;
+    display: flex;
+    align-items:center;
+    gap:50px;
+    margin-left: 50px;
+}
+#fakeheader{
+    height: 13vh;
+}
+.roompage{
+    height: 65vh;
+    background-color:rgb(43, 40, 40);
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roomImgContainer{
+    height: 55vh;
+    width: 40vw;
+    border-radius: 5px;
+}
+.roomImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.roomsDetails{
+    color: rgb(43, 40, 40);
+    height: 45vh;
+    width: 50vw;
+    margin: 35px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 40px;
+    border: 2px solid rgb(43, 40, 40);
+    box-sizing: border-box;
+    padding: 10px;
+}
+.imgAndContent{
+    height:55vh;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;    
+}
+.staybtn{
+    height: 50px;
+    width: 190px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ad8b3a;
+    color: white;
+    border: 2px solid rgb(43, 40, 40);
+    /* margin-top: 150px; */
+    margin-left: 250px;
+    border-radius: 5px;
+    &:hover{
+        background-color: #7b5b11;
+        font-size: 21px;
+    }
+}
+.rates{
+    font-size: 25px;
+    border: 1px solid black;
+    height: 40px;
+    width: 350px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top:50px;
+}
+#dinningbtn{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 2px solid #ad8b3a;
+    background-color:rgb(253, 250, 250);
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+#dinningPage{
+    height: 100%;
+    width: 100%;
+}
+.dinningDiv{
+    height: 87vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dinningMainBox{
+    height: 80vh;
+    width: 80vw;
+    background-color: rgb(43, 40, 40);
+    border: 0.001px solid white;
+    border-radius: 5px;
+}
+.imgBox{
+    height: 65vh;
+    width: 60vw;
+    background-color: white;
+    margin: 30px;
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.dinningImg{
+    height: 65vh;
+    width: 60vw;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 1.5s ease-in-out;
+    &:hover{
+        transform: scale3d(1.05,1.05,1.05);
+        
+    }
+}
+.dinningText{
+    height: 50px;
+    width: 500px;
+    font-size:50px;
+    position: relative;
+    background-color: #ffffff;
+    margin-left: 650px;
+    margin-top: 460px;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(43, 40, 40);
+    border: 2px solid rgb(43, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cinzel, "Palatino Linotype", sans-serif;
+    font-weight: lighter;
+    box-shadow: #ffffff 0px 0px 5px 0.5px ;
+}
+#venuebtn{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border: 2px solid #ad8b3a;
+    background-color:rgb(253, 250, 250);
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color:#ad8b3a;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background-color: #218838;
+}
+.contact-info {
+    margin-top: 40px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+

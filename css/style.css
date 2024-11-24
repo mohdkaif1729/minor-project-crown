@@ -1,0 +1,403 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#loginpage{
+    background-color:white;
+    height:70vh;
+    width: 30vw;
+    border: 5px solid brown;
+    border-radius: 1rem;
+}
+#loginhead{
+    font-size: 30px; 
+    display: flex; 
+    justify-content:center;
+    margin: 20px;
+    color: brown;
+}
+.dhead{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+#maindiv{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 1;
+}
+#signuppage{
+    background-color:white;
+    height:90vh;
+    width: 30vw;
+    border: 5px solid brown;
+    border-radius: 1rem;
+}
+#signupmaindiv{
+    min-height: 100vh;
+    min-width:98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+.backgroundImg{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image:url("../image/frontslidder\ -\ Copy.jpg");
+    background-size:cover;
+    filter: blur(2px);
+}
+.inputs{
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid brown;
+    margin: 20px;    
+    font-size:20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+#loginbtn{
+    height: 50px;
+    width:90%;
+    font-size: 20px;
+    font: bolder;
+    color: white;
+    background-color:rgb(6, 35, 226);
+    border: 2px solid black;
+    margin-left:25px;
+    margin-top: 10px;
+    margin-bottom:50px;
+    border-radius: 10px;
+    &:hover{
+        font-size:23px;
+        background-color: rgb(7, 27, 161);
+    }
+}
+#btns{
+    color: #ad8b3a;
+    width:65%;
+    font-family: Inter, sans-serif;
+    display: flex;
+    align-items:center;
+    gap:50px;
+    margin-left: 50px;
+}
+#fakeheader{
+    height: 13vh;
+}
+/* a{
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+} */
+#loginlink{
+    color: rgb(43, 40, 40);
+}
+#logo{
+    height: 11vh;
+    border-radius:40%;
+    border: 2px double #ad8b3a;
+    margin: 5px;
+    margin-left: 50px;
+}
+.mainbtn{
+    width:100px;
+    height:35px;
+    font-size: 22px;
+    border: none;
+    color: #ffffff;
+    background-color:transparent;
+}
+.atag{
+    color:#ffffff;
+}
+#header{
+    height: 13vh;
+    width:100%;
+    color:#ffffff;
+    display: flex;
+    position: fixed;
+    gap: 20px;
+    z-index: 10;
+    transition: all 0.89s ease-in-out;
+}
+#LaS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.userin{
+    width: 100px;
+    height: 35px;
+    font: bolder;
+    font-size: 20px;
+    color:#ffffff;
+    background-color:transparent;
+    border: 2px solid  #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        border: 2px solid  #ffffff;
+        background-color: rgb(43, 40, 40);
+        color: white;
+    }
+}
+#slider{
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+}
+.slidderbtn{
+    height: 50px;
+    width: 50px;
+    background-color: #ad8b3a;
+    color:#ffffff;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+#TCPcontainer{
+    height: 100px;
+    /* position: relative; */
+    margin-top:440px;
+    padding: 10px;
+}
+#blackdiv{
+    height: 90px;
+    width: 99%;
+    background-color: black;
+    opacity: 0.35;
+    position: absolute;
+}
+#info{
+    color: #ffffff;
+    position: absolute;
+    z-index:0;
+    font-size: 50px;
+    font-family:Cinzel, "Palatino Linotype", sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.lines{
+    height: 2px;
+    width: 80px;
+    background-color:#ffffff;
+}
+#page1{
+    background-image: url("../image/swimmingpoolArea1.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+#page1andahalf{
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+#page1andahalfinfo{
+    height: 100%;
+    width: 40vw;
+    color: rgb(43, 40, 40);
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cinzel, "Palatino Linotype", sans-serif;
+
+}
+#textbox{
+    height: 70%;
+    width: 70%;
+    
+    /* background-color: aqua; */
+}
+#textline{
+    height: 1px;
+    width: 80px;
+    background-color: rgb(43, 40, 40);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.textboxheading{
+    height:40%;
+    width: 100%;
+    font-size: 40px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+#textboxtext{
+    height: 70%;
+    width: 90%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+#page1andhalfImage{
+    height: 100%;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#imagePage1andahalf{
+    height: 70%;
+    width: 90%;
+    object-fit: cover;
+}
+
+#page2{
+    background-color: rgb(43, 40, 40);
+    height: 100vh;
+    color: #ffffff;
+}
+#page2heading{
+    height: 30vh;
+    color:   rgb(43, 40, 40);
+    background-color: #f4efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 1.5vw;
+    line-height: 120%;
+
+}
+.line{
+    height: 1px;
+    width: 150px;
+    background-color:  rgb(43, 40, 40);
+}
+.highlightTexts{
+    color: rgb(43, 40, 40);
+    font-weight: lighter;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#facilities{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    overflow-x:scroll ;
+}
+.facContainers{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    margin: 30px;
+    object-fit: contain;
+}
+.facImg{
+    height: 300px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 5px solid whitesmoke;
+    border-radius:1px ;
+    transition:all 1.2s ease-in-out;
+    /* box-shadow: whitesmoke 5px 5px 0px 7px; */
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.13);
+    }
+}
+.fachead{
+    height: 100px;
+    font-size: 40px;
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page3{
+    height: 120vh;
+    background-color: #ffffff;
+}
+#content{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-weight: lighter;
+}
+.contactus{
+    height: 40vh;
+    width: 100%;
+    background-color: #d4d3d3;
+    gap: 20px;
+    border: 7px double rgb(43, 40, 40);
+}
+#contactusheading{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+#socialmedia{
+    height: 60vh;
+    background-color: #ad8b3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-family:Cinzel,"Palatino Linotype",sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#horline{
+    background-color: rgb(43, 40, 40);
+    height: 160px;
+    width: 1.5px;
+}
+.sm{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.smlogo{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 4px;
+}
+#copyright{
+    margin-top: 150px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow:black 5px 0.2px 7px 2.5px;
+}
+
+
+.hidden {
+    display: none;
+}
