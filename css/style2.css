@@ -41,6 +41,7 @@
     background-color:#ffffff;
     color:#ad8b3a;
     display: flex;
+    align-items: center;
     position: fixed;
     gap: 20px;
     z-index: 10;

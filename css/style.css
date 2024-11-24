@@ -123,6 +123,7 @@
     width:100%;
     color:#ffffff;
     display: flex;
+    align-items: center !important;
     position: fixed;
     gap: 20px;
     z-index: 10;
@@ -400,4 +401,9 @@
 
 .hidden {
     display: none;
+}
+
+#notLaS {
+    display: flex;
+    align-items: center;
 }
